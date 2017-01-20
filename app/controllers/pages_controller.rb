@@ -4,7 +4,7 @@ require 'json'
 class PagesController < ApplicationController
 
   def home
-    json = JSON.parse(open("http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC").read)
+    json = JSON.parse(open("http://api.giphy.com/v1/gifs/random?q=funny+cat&api_key=dc6zaTOxFJmzC").read)
     @num = json['data'].count
     @cliff = Array.new
     for i in 0..4
