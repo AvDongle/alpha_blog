@@ -16,6 +16,8 @@ $navbar-default-bg: #0066ff;
     margin: 0 auto;
 }
 
+
+
 .middle{
         position: relative;
         top:65%;
@@ -44,6 +46,15 @@ $navbar-default-bg: #0066ff;
 .btn-xlarge {
   background-color: #0066ff;
   font-size: 1.7em;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+
+}
+.description {
+  margin-top:0;
 }
 
 footer {
